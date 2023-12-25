@@ -1,0 +1,60 @@
+.main_card{
+    border: 1px solid #eee;
+}
+.lt{
+    width: 40px !important;
+}
+.nmenu { 
+    border: 1px solid blue !important;
+}
+.year-picker{
+    border: 1px solid rgba(33, 33, 33, 0.12);
+    padding: 3px 25px 3px 15px;
+    font-size: 12px;
+    width: 110px;
+}
+
+.plugin_contianer {
+    border: 1px solid #e0e6ed;
+    /* width: 50%; */
+    padding: 25px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 10px 1px rgba(31,45,61,.1);
+    box-shadow: 0px 2px 10px 1px rgba(31,45,61,.1);
+    margin-right: auto;
+    margin-left: auto;
+}
+.plugin_contianer .plugin-icon svg {
+    width: 50px;
+    height: 50px;
+    stroke-width: 1px;
+    margin-bottom: 20px;
+    color: #1b55e2;
+}
+.plugin_contianer .plugin-heading {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 14px;
+    letter-spacing: 2px;
+}
+.plugin_contianer .plugin-text {
+    font-size: 15px;
+    color: #888ea8;
+    margin-bottom: 15px;
+}
+.plugin_contianer .plugin-link {
+    color: #1b55e2;
+    font-weight: 600;
+}
+.plugin_contianer .plugin-link svg {
+    width: 15px;
+    height: 15px;
+}
+
+.plugin_contianer .plugin-icon i {
+    font-size: 40px;
+}
+
+@media( max-width: 575px ) {
+    .plugin_contianer { width: auto; }
+}
